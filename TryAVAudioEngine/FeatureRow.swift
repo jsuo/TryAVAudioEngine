@@ -1,5 +1,5 @@
 //
-//  ItemRow.swift
+//  FeatureRow.swift
 //  TryAVAudioEngine
 //
 //  Created by Shimoyama on 2019/11/10.
@@ -8,22 +8,23 @@
 
 import SwiftUI
 
-struct ItemRow: View {
+struct FeatureRow: View {
     var title: String
+//    var data: FeatureData
     
     var body: some View {
         HStack {
             Text(verbatim: title)
-        }
+         }
     }
 }
 
-struct ItemRow_Previews: PreviewProvider {
+struct FeatureRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ItemRow(title: "Hoge 1")
-            ItemRow(title: "Hoge 2")
-            ItemRow(title: "Hoge 3")
+            FeatureRow(title: "Hoge 1")
+            FeatureRow(title: "Hoge 2")
+            FeatureRow(title: "Hoge 3")
         }
         .previewLayout(.fixed(width: 375, height: 60))
     }
