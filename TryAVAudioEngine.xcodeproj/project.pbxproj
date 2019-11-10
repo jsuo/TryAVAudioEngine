@@ -15,6 +15,7 @@
 		6409E3C12377A6860049A8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6409E3BF2377A6860049A8F6 /* LaunchScreen.storyboard */; };
 		6409E3CC2377A6860049A8F6 /* TryAVAudioEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409E3CB2377A6860049A8F6 /* TryAVAudioEngineTests.swift */; };
 		6409E3D72377A6860049A8F6 /* TryAVAudioEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409E3D62377A6860049A8F6 /* TryAVAudioEngineUITests.swift */; };
+		6409E3E52377B74E0049A8F6 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409E3E42377B74E0049A8F6 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6409E3D22377A6860049A8F6 /* TryAVAudioEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryAVAudioEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6409E3D62377A6860049A8F6 /* TryAVAudioEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAVAudioEngineUITests.swift; sourceTree = "<group>"; };
 		6409E3D82377A6860049A8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6409E3E42377B74E0049A8F6 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6409E3BF2377A6860049A8F6 /* LaunchScreen.storyboard */,
 				6409E3C22377A6860049A8F6 /* Info.plist */,
 				6409E3BC2377A6860049A8F6 /* Preview Content */,
+				6409E3E42377B74E0049A8F6 /* ItemRow.swift */,
 			);
 			path = TryAVAudioEngine;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				6409E3B52377A6850049A8F6 /* AppDelegate.swift in Sources */,
 				6409E3B72377A6850049A8F6 /* SceneDelegate.swift in Sources */,
 				6409E3B92377A6850049A8F6 /* ContentView.swift in Sources */,
+				6409E3E52377B74E0049A8F6 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
